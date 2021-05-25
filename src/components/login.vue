@@ -11,7 +11,9 @@
             <el-input v-model="loginForm.password" placeholder="请输入密码" type='password'></el-input>
           </el-form-item>
           <el-form-item>
+            <router-link to='/person'>
             <el-button @click='clickLogin' class='el-button--primary is-round'>登录</el-button>
+            </router-link>
           </el-form-item>
         </el-form>
       </div>

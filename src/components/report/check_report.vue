@@ -57,12 +57,15 @@
     </el-table>
     <!-- 使用element-ui里的表格展示请求到的数据 -->
 
+      <br />
+      <br />
+      <br />
+      <br />
     <el-pagination
       class="page"
       @size-change="handleSizeChange"
       @current-change="handleCurrentChange"
       :current-page.sync="currentPage"
-      background
       :page-size="10"
       layout="prev, pager, next, jumper"
       :total="100"
